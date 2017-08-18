@@ -1,0 +1,36 @@
+{
+    "title": "$prTitle",
+    "description": "$prDescription",
+    "state": "OPEN",
+    "open": true,
+    "closed": false,
+    "fromRef": {
+        "id": "refs/heads/$prSourceBranch",
+        "repository": {
+            "slug": "$prRepoName",
+            "name": null,
+            "project": {
+                "key": "$prProjectKey"
+            }
+        }
+    },
+    "toRef": {
+        "id": "refs/heads/$prDestBranch",
+        "repository": {
+            "slug": "$prRepoName",
+            "name": null,
+            "project": {
+                "key": "$prProjectKey"
+            }
+        }
+    },
+    "locked": false,
+    "reviewers": [
+
+    ],
+    "links": {
+        "self": [
+            null
+        ]
+    }
+}
