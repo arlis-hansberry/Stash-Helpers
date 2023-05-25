@@ -14,4 +14,4 @@ New-StashHelpersPullRequest -stashUrl 'stash.example.com' -stashUsername 'userna
 ```
 
 # Authors
-- Arlis Hansberry
+- Arlis Halcomb
